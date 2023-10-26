@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>10 Sec Math Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="container" style="text-align: center;">
+      <div class="row">
+        <div class="col-xs-12">
+            <h2 id="title">10 Sec Math Game</h2>
+
+            <div id="rules-div">
+            <h3>How to Play:</h3>
+            <h4 id="rules">Countdown timer will start when you begin answering questions.<br>For each correct answer, one second of time will be added back to the countdown timer.</h4>
+            </div>
+
+            <h2 id="time-left">10</h2>
+            <p>seconds left</p>
+
+            <h1 id="equation"></h1>
+            <input id="user-input" type="number" placeholder="Answer Here"/>
+
+            <h4 class="score">Score: <span id="score"></span></h4>
+            <h4 class="score">High Score: <span id="high-score"></span></h4>
+
+            <h4>Need more of a challenge?<br>Set the highest number (up to 50) to be used here: </h4>
+            <input type="number" id="max-number" value="" min="1">
+            <button id="set-max-number" class="btn btn-info">Set</button>
+            <p id="message"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

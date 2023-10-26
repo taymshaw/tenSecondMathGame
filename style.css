@@ -1,0 +1,27 @@
+body {
+    background-image: url(background1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    background-color: #fff;
+}
+
+#title {
+    font-weight: bold;
+}
+
+#rules {
+    font-style: italic;
+}
+
+.score {
+    font-weight: bold;
+}
